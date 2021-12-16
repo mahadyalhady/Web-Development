@@ -2,3 +2,9 @@ p{
     color: aquamarine;
     background-color: rgb(132, 0, 255);
 }
+table, th, td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    padding: 15px; ;
+
+}
