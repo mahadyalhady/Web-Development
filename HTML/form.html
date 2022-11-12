@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="useraccount.php" method="get">
+        <label for="username">User Name: </label>
+        <input id="username" type="text"><br> 
+
+        <label for="password">Password: </label>
+        <input type="password" name="" id="password"><br>
+
+        <label for="">Gender: </label><br>
+        <input type="radio" name="gender" value="male" id="male">Male
+        <input type="radio" name="gender" value="female" id="female">Female
+        <br>
+        <select name="select" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <textarea name="" id="" cols="40" rows="10" placeholder="Write your address"></textarea>
+        <br>
+
+        District: <input type="text" list="district">
+        <datalist id="district">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Jessore">Jessore</option>
+        </datalist>
+        <br>
+
+        <button type="button">Submit</button>
+        <br>
+        <input type="submit" value="Enter">
+
+
+
+    
+
+    </form>
+</body>
+</html>
