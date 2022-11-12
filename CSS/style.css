@@ -1,0 +1,23 @@
+body {
+    background-color: wheat;
+    border: 6px solid yellow;
+}
+
+h3 {
+    color: red;
+}
+
+
+#one{ /*to change in ID, use #    */
+    color: darkgoldenrod;
+    
+}
+
+.blue{ /*to change in Class, use .    */
+    border: 4px solid blue;
+    color:chocolate;
+}
+
+h1,h2,h3,p{
+    /* to change in a group */
+}
