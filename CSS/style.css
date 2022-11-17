@@ -50,8 +50,18 @@ h1,h2,h3,p{  to change in a group }
     /* width: 50%; */
     max-width: 500px;
     border: 10px solid rgb(253, 125, 74);
-    padding: 10px;
-    margin: 30px;
-    
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.pbox {
+    /* width: 50%; */
+    max-width: 500px;
+    border: 10px solid rgb(253, 125, 74);
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+    outline: 9px dashed rgb(112, 120, 194) ;
     
 }
