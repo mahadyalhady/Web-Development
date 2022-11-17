@@ -34,20 +34,24 @@ h4 {
 h1,h2,h3,p{  to change in a group }
 */
 
-.header a{
+.header a {
     border: 3px solid black;
     display: inline-block;
     color: rgb(112, 120, 194);
     text-decoration: none;
     font-size: 30px;
     margin-left: 20px;
-    margin-top:  30px;
+    margin-top: 30px;
     margin-bottom: 30px;
-    padding: 20px ;
+    padding: 20px;
 }
 
-.navbar{
-    /width: 50%;
+.navbar {
+    /* width: 50%; */
     max-width: 500px;
-    border: 3px solid rgb(253, 125, 74);
+    border: 10px solid rgb(253, 125, 74);
+    padding: 10px;
+    margin: 30px;
+    
+    
 }
