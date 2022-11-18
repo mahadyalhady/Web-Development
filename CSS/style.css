@@ -54,7 +54,6 @@ h1,h2,h3,p{  to change in a group }
     border: 10px solid rgb(253, 125, 74);
     padding: 20px;
     margin: 20px;
-
 }
 
 .pbox {
@@ -71,5 +70,34 @@ h1,h2,h3,p{  to change in a group }
     letter-spacing: 1px;
     /text-decoration: underline;
     font-family: 'Lobster', cursive;
-    
+}
+
+#innerlink{
+    display: block;
+    width: 140px;
+    margin: auto;
+    padding: 25px;
+    background-color: cyan;
+    border-radius: 20px 10px;
+    text-decoration: none;
+}
+
+#innerlink:link{
+    background-color: rgb(236, 240, 32);
+    color: rgb(3, 3, 3);
+}
+
+#innerlink:visited{
+    background-color: rgb(54, 211, 88);
+    color: white;
+}
+
+#innerlink:hover{
+    background-color: rgb(54, 211, 88);
+    color: white;
+}
+
+#innerlink:checked{
+    background-color: rgb(214, 45, 45);
+    color: white;
 }
