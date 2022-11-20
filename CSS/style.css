@@ -72,6 +72,7 @@ h1,h2,h3,p{  to change in a group }
     font-family: 'Lobster', cursive;
 }
 
+/* link */
 #innerlink{
     display: block;
     width: 140px;
