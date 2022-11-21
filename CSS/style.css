@@ -126,7 +126,7 @@ h1,h2,h3,p{  to change in a group }
 }
 
 .tablecontainer {
-    
+
     margin: 20px;
     padding: 50px;
     width: 40px;
@@ -152,8 +152,29 @@ h1,h2,h3,p{  to change in a group }
     background-color: rgb(209, 187, 158);
 }
 
-.mydisplay{
+.mydisplay {
     padding: 25px;
     border: 3px solid red;
-    display: inline;
+    /* display: inline; */
+}
+
+.position {
+    /* width: auto; */
+    padding: 5px;
+    border: 3px solid blue;
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}
+
+.floattag {
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid;
+    overflow: auto;
+}
+
+#myimg {
+    float: left;
+
 }
