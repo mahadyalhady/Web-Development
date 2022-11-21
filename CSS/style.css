@@ -172,6 +172,7 @@ h1,h2,h3,p{  to change in a group }
     padding: 5px;
     border: 2px solid;
     overflow: auto;
+    text-align: center;
 }
 
 #myimg {
